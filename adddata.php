@@ -58,7 +58,7 @@ if (file_exists('./api.json')) {
         $new_array = [
             'districtName' => $dname,
             'province' => $province_name,
-            'area code' => $areacode,
+            'acode' => $areacode,
             'headquarter' => $headquarter,
             'popu' => $population,
 
